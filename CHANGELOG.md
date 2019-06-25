@@ -1,3 +1,33 @@
+## [0.5.4] - 6/7/2019
+- fix markers on edge of screen disappearing (#313)
+- dart analysis fixes (#300)
+- add border circle (#299)
+- add dotted line to polygon (#295)
+- fix example esri page (#292)
+- add flutter_map_marker_cluster package to README (#309)
+
+Note: 0.5.x releases are compatable with Flutter's `stable` channel, currently
+v1.5.4-hotfix.2 and 0.6.x releases (also on the `flutter_map` `dev` branch) is a
+version of flutter_map compatible with Flutter's `dev` channel
+
+Thanks to @lpongetti @FalkF @Victor-emil @lsaudon and @lorenzo for this release!
+
+## [0.5.3] - 5/21/2019
+- update dependencies (#288)
+
+## [0.5.2] - 5/20/2019
+- fix zooming issue (#281)
+
+## [0.5.1] - 5/17/2019
+
+- add mbtiles
+- add formatting and linter rules
+- Fix null pointer in isOutOfBounds (#274)
+- add isUserGesture (#237)
+- fix emulator pinching error
+
+Thanks to @avbk, @OrKoN, @pintomic, @wmcshane, @manhluong for this release!
+
 ## [0.5.0] - 2/21/2019
 
 - add cached network image support (#204)
@@ -11,7 +41,7 @@
 - remove layers property from MapOptions (#193)
 
 Thanks to @SamuelRioTz, @jecoz, @4kssoft, @bugWebDeveloper, @RaimundWege,
-@vincetus, and @etzuk for this release!
+@vinicentus, and @etzuk for this release!
 
 ## [0.4.0] - 12/31/2018
 - Zoom to focal point on double tap and scale gestures (#121)
@@ -58,7 +88,7 @@ Thanks to @LJaraCastillo, @ubilabs, @xqwzts, @vinicentus, and @lsaudon for this
 release!
 
 ## [0.1.0] - 8/21/2018
-- Set Dart SDK to ">=2.0.0 <3.0.0"
+- Set Dart SDK to 2
 
 ## [0.0.11] - 8/2/2018
 - upgrade to latlong from 0.4.0 to 0.5.3
